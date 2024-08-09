@@ -75,7 +75,7 @@ from wombo import Dream
 dream = Dream()
 
 tasks = []
-for _ in range(amount):
+for _ in range(3):
     tasks.append(dream.create_task('a dragon in the sky'))
 
 # wait all of tasks

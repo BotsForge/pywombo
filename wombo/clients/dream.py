@@ -141,3 +141,6 @@ class Dream(BaseDream):
 
     def __exit__(self, *args):
         self.client.__exit__(*args)
+
+    def close(self):
+        self.client.close()

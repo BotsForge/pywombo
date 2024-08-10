@@ -141,3 +141,9 @@ class AsyncDream(BaseDream):
 
     async def __aexit__(self, *args):
         await self.client.__aexit__(*args)
+
+    async def aclose(self):
+        await self.client.aclose()
+
+    async def close(self):
+        await self.aclose()

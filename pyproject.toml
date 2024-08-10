@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pywombo"
-version = "0.1.0"
+version = "0.1.1"
 description = "wombo AI free image generation"
 authors = ["MrSmith06 <sletars@gmail.com>"]
 license = "MIT"
